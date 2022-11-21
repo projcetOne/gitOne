@@ -1,0 +1,168 @@
+https://www.oracle.com/database/technologies/xe-prior-release-downloads.html
+
+https://m.blog.naver.com/wung9/222091159627
+
+
+CREATE TABLE TEST(
+    a VARCHAR2(30), 
+    b NUMBER,
+    
+    CONSTRAINT TEST_PK PRIMARY KEY(a, b)
+);
+
+
+
+
+grant connect, resource, dba to  system; 
+
+grant select,insert,update,delete on system
+
+GRANT insert ON [TABLE NAME] TO [USER];
+
+grant sysdba to system; 
+
+<insert>
+<selectKey keyProperty="aa" resultType="int" order="before">
+ select 시퀀스.NEXTVAL from table
+</selectKey>
+insert into table value(aa)
+</insert> 
+
+
+
+
+
+
+
+useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&allowMultiQueries=true
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+grant connect, resource, dba to  system; 
+select ~~ from sys.tablename
+
+
+
+
+
+
+
+
+<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="" />
+        <property name="url" value="" />
+        <property name="username" value="" />
+        <property name="password" value="" />
+</bean>
+
+
+<bean id="sqlSessionFactory"  class="org.mybatis.spring.SqlSessionFactoryBean">
+<property name="dataSource" ref="dataSource" />
+<property name="configLocation"	value="classpath:mybatis/configuration.xml" />
+</bean>
+
+
+<bean id="sqlSession"	class="org.mybatis.spring.SqlSessionTemplate">
+	<constructor-arg index="0" ref="sqlSessionFactory" />
+</bean>
+
+
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+	<configuration>
+	
+		<mappers>
+			<mapper resource="mybatis/aaaa.xml" />
+		</mappers>
+	</configuration>
+
+
+	
+@Au~~
+DataSource dataSource;
+
+dataSource.getCon~~()
+
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-jdbc</artifactId>
+		<version>${org.springframework-version}</version>
+	</dependency>
+
+	<dependency>
+		<groupId>commons-dbcp</groupId>
+		<artifactId>commons-dbcp</artifactId>
+		<version>1.4</version>
+	</dependency>
+
+
+	<dependency>
+		<groupId>org.mybatis</groupId>
+		<artifactId>mybatis</artifactId>
+		<version>3.2.2</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.mybatis</groupId>
+		<artifactId>mybatis-spring</artifactId>
+		<version>1.2.0</version>
+	</dependency>
+
+
+
+
+
+
+
+
+
+
+
+https://hosting.cafe24.com/
+
+
+javaportfolio.cafe24.com
+
+ftp  - fileZilla 
+db(ssl) - putty 
+
+javaportfolio.cafe24.com 
+javaportfolio
+green3481
+21
+ROOT.war   : webapps -> ROOT.war 
+
+javaportfolio.cafe24.com
+22 
+javaportfolio
+green3481
+
+mysql -u javaportfolio -p
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
